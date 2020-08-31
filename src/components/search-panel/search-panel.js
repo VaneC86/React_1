@@ -5,7 +5,8 @@ import './search-panel.css';
 const SearchPanel =()=>{
 	const searchText='enter search text';
 	const style={
-		fontSize:'24px'
+		fontSize:'18px',
+		width:'100%'
 	}
 		return(
 			<input className='form-control search-input' placeholder={searchText} style={style}/>
